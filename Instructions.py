@@ -14,7 +14,7 @@ label.pack()
 
 
 #for bg image #I'll attach the pic after this code
-bimage = PhotoImage(file="assets/inst_forground.png") #edit-put address where the pic is in ur mac
+bimage = PhotoImage(file="assets/inst_forground.png") 
 canvas=Canvas(page,height=700,width=500,bg='#282828')
 canvas.create_image(0,0, image=bimage, anchor =NW)
 canvas.pack()
