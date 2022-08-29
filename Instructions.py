@@ -11,7 +11,8 @@ page.geometry('500x700')
 label = Label(page,text = 'How to Play', relief=RAISED, width=25, height=2,
               fg='black',font=('Bauhaus 93',30)) #for fonts just open ur word n search for good fonts,copy its name and paste
 label.pack()
-
+label = Label(page,text = 'Q - Quit',fg='black',font=('Bauhaus 93',30)) #for fonts just open ur word n search for good fonts,copy its name and paste
+label.pack()
 
 #for bg image #I'll attach the pic after this code
 bimage = PhotoImage(file="assets/inst_forground.png") 
